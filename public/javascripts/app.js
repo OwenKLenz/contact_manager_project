@@ -16,11 +16,11 @@ class App {
     this.attachAddPageListeners();
   }
 
-	attachHomePageListeners() {
-		this.homePage.container.addEventListener('click', event => {
-			if (event.target.id === 'addContact') {
+  attachHomePageListeners() {
+    this.homePage.container.addEventListener('click', event => {
+      if (event.target.id === 'addContact') {
         this.loadAddPage();
-			} else if (event.target.classList.contains('edit')) {
+      } else if (event.target.classList.contains('edit')) {
         this.loadEditPage(event);  
       } else if (event.target.classList.contains('delete')) {
         this.deleteContact(event);
@@ -29,17 +29,17 @@ class App {
       } else if (event.target.id === 'showAll') {
         this.showAllContacts();
       }
-		});
+    });
 
     this.attachSearchListener();
-	}
+  }
 
   attachAddPageListeners() {
     this.addPage.container.addEventListener('click', event => {
       if (event.target.id === 'cancel') {
         this.cancelForm(event);
       } else if (event.target.id === 'addTag') {
-        this.createNewTag(this.addPage, event); 
+        this.createNewTag(this.addPage, event);
       } else if (event.target.classList.contains('tag')) {
         this.removeTag(event);
       }
@@ -96,7 +96,7 @@ class App {
         this.editPage.show(id);
         break;
     }
-	}
+  }
 }
 
 document.addEventListener('DOMContentLoaded', () => {
