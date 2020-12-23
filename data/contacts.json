@@ -1,0 +1,30 @@
+[
+  {
+    "full_name": "Joe Schmoe",
+    "phone_number": "1231231234",
+    "email": "joe@joe.joe",
+    "tags": "friend,astronaut",
+    "id": 1
+  },
+  {
+    "full_name": "Owen Lenz",
+    "phone_number": "5555555555",
+    "email": "myself@me.com",
+    "tags": "me,myself,i",
+    "id": 2
+  },
+  {
+    "full_name": "Eleanor the Elephant",
+    "phone_number": "1231231231",
+    "email": "ellie@elephant.trunk",
+    "tags": "elephant,friend,grey,hasatrunk",
+    "id": 3
+  },
+  {
+    "full_name": "Simeon the Sasquatch",
+    "phone_number": "7676767676",
+    "email": "bigfootizreal@yahoo.com",
+    "tags": "isayeti,friend",
+    "id": 4
+  }
+]
